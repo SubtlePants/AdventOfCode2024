@@ -2,6 +2,7 @@
 from Day1.day1 import Day1
 from Day2.day2 import Day2
 from Day3.day3 import Day3
+from Day4.day4 import Day4
 
 day= int(input("Which Day? "))
 
@@ -12,5 +13,7 @@ match day:
         Day2().run()
     case 3:
         Day3().run()
+    case 4:
+        Day4().run()
     case _:
         raise IOError("Not a valid day")
